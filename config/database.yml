@@ -22,5 +22,4 @@ test:
 
 production:
   <<: *default
-  database: payjp_practice_production
   url: <%= ENV['DATABASE_URL'] %>
